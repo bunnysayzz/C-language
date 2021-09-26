@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+int a , rem , b , c , result
+;
+printf("Enter two digit number") ;
+scanf("%d", & a) ;
+rem = a % 10;
+
+b= a/10 ;
+     c=rem*10+b; 
+    printf("\nreversed no is %d",c);
+result = a - c;
+printf("\nresult is %d", result) ;
+rem = result % 9 ;
+printf ("\nremainder is %d", rem) ;
+return 0 ;
+}
